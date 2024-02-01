@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 1px;
+  border-bottom: #d2d2d2 1px solid;
+}
+
+.headupper {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px #bbbbbb solid;
+
+  align-items: center;
+  padding: 8px;
+}
+
+.iconFb svg {
+  width: 120px;
+  padding: 0;
+}
+
+.searchBtn button {
+  padding: 3px;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menubtn button {
+  padding: 3px;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menubtn svg {
+  width: 19.8px;
+}
+
+.searchBtn svg {
+  width: 19.8px;
+}
+
+.action {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.tabIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabIcon button {
+  width: 65px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-right: 1px #cbcbcb solid;
+  fill: #0062e0;
+}
+
+.tabIcon svg {
+  width: 21.45px;
+  fill: #c1c1c1;
+}
+.tabIcon svg:hover {
+  fill: #0062e0;
+}
